@@ -2,12 +2,6 @@
  * 
  */
 
-function changeImage()
-{
-	document.getElementById("profilepicture").style.height="35%";
-	document.getElementById("profilepicture").style.width="35%";
-	return true;
-}
 function toggleMe(a){
 	var e=document.getElementById(a);
 	if(!e)return true;
@@ -19,3 +13,5 @@ function toggleMe(a){
 	}
 	return true;
 }
+
+
